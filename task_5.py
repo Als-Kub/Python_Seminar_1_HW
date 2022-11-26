@@ -14,5 +14,8 @@ if income > costs:
     staff_number = int(input("Enter number of employees: "))
     profit_staff = (income - costs) / staff_number
     print(f"Profit per employee = {profit_staff}")
+elif income == costs:
+    print("Your business is at the breakeven point.")
 else:
     print("Your business is unprofitable.")
+
